@@ -1,11 +1,5 @@
 
----
-layout: default
----
-
 ## Hi there 👋
-
-![Sandeep's profile picture](https://i.imgur.com/YOUR-PROFILE-PICTURE.jpg)
 
 Hi there! I'm Sandeep, a software developer with a passion for building innovative web and mobile applications. I have experience with languages such as Java, Python, and JavaScript, and I'm always looking to learn new technologies.
 
