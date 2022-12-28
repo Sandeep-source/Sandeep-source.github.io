@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Kushwaha</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            min-height: 100%;
+            background-image: url("back3.png");
+            background-position:0px 0px;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        .outer {
+
+            min-height: 100%;
+
+        }
+
+        .inner {
+            margin: auto;
+            margin-top: 5%;
+            width: 80%;
+            height: 100%;
+            background: #FFFFFF;
+            box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+            display: grid;
+            grid-template-areas: 'profile content';
+            grid-template-columns: 60% 40%;
+            grid-template-rows: auto;
+        }
+
+        .profile img {
+            width: 120%;
+            height: 100%;
+        }
+
+        .intro {
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #0A0909;
+
+           
+
+        }
+
+        .content {
+            display: grid;
+            grid-template-rows: 60% auto;
+            grid-area: 'content';
+            align-content: space-between;
+            gap: 20px;
+            padding: 15% 0% 5% 15%;
+        }
+
+        .social a img {
+            width: 30px;
+            height: 30px;
+            margin: 20px;
+        }
+        .profile{
+            overflow-x: visible;
+            grid-area: 'profile';
+        }
+        .social a {
+            text-decoration: none;
+        }
+        @media screen and (max-width:700px) {
+            .inner{
+                grid-template-columns: auto;
+                grid-template-rows: auto auto;
+                grid-template-areas: 'profile' 'content';
+            }
+            .content{
+                padding: 50px;
+                grid-area: 'profile';
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="content">
+                <div class="intro">
+                    Hi there! I'm Sandeep, an undergraduate Student 👨‍🎓 with a passion for building innovative web and mobile applications. I have experience with 
+                    languages such as Java ☕, Python 🐍, and JavaScript, and I'm always looking to learn new technologies. 
+                    I'm cloud ☁ enthusiastic and  Implementing ⚙ DevOps in my tech journey.<br><br>
+                    Feel free to reach out to me if you have any questions or want to collaborate on a project.
+                    <!-- Hey 👋 , I am Sandeep.<br>
+                    Very Excited to see you here.<br> -->
+
+
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sandeep-kushwaha-11b79a1b5">
+                        <img src="in.png" />
+                    </a>
+                    <a href="https://github.com/Sandeep-source">
+                        <img src="github.png" />
+                    </a>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/82cb9351-90f0-4957-bed2-5aca7e6141e9">
+                        <img src="gcsb.png" />
+                    </a>
+                    <a href="https://leetcode.com/Sandeep-source/">
+                        <img src="leet.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="sandeep.png" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
